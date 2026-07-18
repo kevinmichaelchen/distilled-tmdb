@@ -2,7 +2,14 @@
 
 An Effect 4-native TMDB v3 SDK generated from TMDB's official OpenAPI 3.1 document. Operations use Distilled's trait-driven protocol runtime and preserve TMDB's vendor-native request and response shapes.
 
-Set `TMDB_API_READ_ACCESS_TOKEN`. `TMDB_API_KEY` remains accepted as a migration fallback for `movie-effect` users.
+Install the SDK with Effect beta 99 and set TMDB's API Read Access Token:
+
+```sh
+bun add @kevinmichaelchen/distilled-tmdb@0.1.1 effect@4.0.0-beta.99
+export TMDB_API_READ_ACCESS_TOKEN="your-api-read-access-token"
+```
+
+The SDK deliberately supports bearer-token authentication only. It does not read `TMDB_API_KEY` or send TMDB's separate `api_key` query parameter.
 
 ```ts
 import * as Effect from "effect/Effect";

@@ -1,6 +1,6 @@
 {
   "name": "@kevinmichaelchen/distilled-tmdb",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Protocol-based Effect 4 SDK for the TMDB v3 API",
   "type": "module",
   "license": "Apache-2.0",

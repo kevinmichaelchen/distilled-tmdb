@@ -38,9 +38,7 @@ export const fromAccessToken = (
 
 const fromConfigError = (message: string) => () => new ConfigError({ message });
 
-const tokenConfig = Config.string("TMDB_API_READ_ACCESS_TOKEN").pipe(
-  Config.orElse(() => Config.string("TMDB_API_KEY")),
-);
+const tokenConfig = Config.string("TMDB_API_READ_ACCESS_TOKEN");
 
 const envConfig = Config.all({
   token: tokenConfig,
@@ -51,7 +49,7 @@ export const resolveFromEnv: Effect.Effect<ResolvedCredentials, ConfigError> =
   envConfig.pipe(
     Effect.mapError(
       fromConfigError(
-        "Failed to load a TMDB token from TMDB_API_READ_ACCESS_TOKEN or TMDB_API_KEY",
+        "Failed to load a TMDB token from TMDB_API_READ_ACCESS_TOKEN",
       ),
     ),
     Effect.map((config) =>
