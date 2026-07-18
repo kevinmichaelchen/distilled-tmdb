@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "spec": {
+    "format": "3.1",
+    "title": "tmdb-api",
+    "version": "3"
+  },
+  "configuration": {
+    "skipDeprecated": true
+  },
+  "patches": {
+    "applied": [
+      "001-group-operations.patch.json"
+    ],
+    "skipped": []
+  },
+  "operations": {
+    "total": 152,
+    "deprecated": 0,
+    "skippedDeprecated": 0,
+    "attempted": 152,
+    "generated": 152,
+    "failed": 0,
+    "unsupported": 0,
+    "byMethod": {
+      "GET": {
+        "total": 135,
+        "deprecated": 0,
+        "skippedDeprecated": 0,
+        "attempted": 135,
+        "generated": 135,
+        "failed": 0
+      },
+      "POST": {
+        "total": 12,
+        "deprecated": 0,
+        "skippedDeprecated": 0,
+        "attempted": 12,
+        "generated": 12,
+        "failed": 0
+      },
+      "PUT": {
+        "total": 0,
+        "deprecated": 0,
+        "skippedDeprecated": 0,
+        "attempted": 0,
+        "generated": 0,
+        "failed": 0
+      },
+      "PATCH": {
+        "total": 0,
+        "deprecated": 0,
+        "skippedDeprecated": 0,
+        "attempted": 0,
+        "generated": 0,
+        "failed": 0
+      },
+      "DELETE": {
+        "total": 5,
+        "deprecated": 0,
+        "skippedDeprecated": 0,
+        "attempted": 5,
+        "generated": 5,
+        "failed": 0
+      },
+      "HEAD": {
+        "total": 0,
+        "deprecated": 0,
+        "skippedDeprecated": 0,
+        "attempted": 0,
+        "generated": 0,
+        "failed": 0
+      },
+      "OPTIONS": {
+        "total": 0,
+        "deprecated": 0,
+        "skippedDeprecated": 0,
+        "attempted": 0,
+        "generated": 0,
+        "failed": 0
+      },
+      "TRACE": {
+        "total": 0,
+        "deprecated": 0,
+        "skippedDeprecated": 0,
+        "attempted": 0,
+        "generated": 0,
+        "failed": 0
+      }
+    }
+  }
+}

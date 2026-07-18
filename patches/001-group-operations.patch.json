@@ -1,0 +1,1069 @@
+{
+  "description": "Group TMDB operations by the first resource segment because the official OpenAPI document omits tags.",
+  "patches": [
+    {
+      "op": "add",
+      "path": "/paths/~13~1authentication/get/tags",
+      "value": [
+        "authentication"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1account~1{account_id}/get/tags",
+      "value": [
+        "account"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1account~1{account_id}~1favorite/post/tags",
+      "value": [
+        "account"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1account~1{account_id}~1watchlist/post/tags",
+      "value": [
+        "account"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1account~1{account_id}~1favorite~1movies/get/tags",
+      "value": [
+        "account"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1account~1{account_id}~1favorite~1tv/get/tags",
+      "value": [
+        "account"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1account~1{account_id}~1lists/get/tags",
+      "value": [
+        "account"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1account~1{account_id}~1rated~1movies/get/tags",
+      "value": [
+        "account"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1account~1{account_id}~1rated~1tv/get/tags",
+      "value": [
+        "account"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1account~1{account_id}~1rated~1tv~1episodes/get/tags",
+      "value": [
+        "account"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1account~1{account_id}~1watchlist~1movies/get/tags",
+      "value": [
+        "account"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1account~1{account_id}~1watchlist~1tv/get/tags",
+      "value": [
+        "account"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1authentication~1guest_session~1new/get/tags",
+      "value": [
+        "authentication"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1authentication~1token~1new/get/tags",
+      "value": [
+        "authentication"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1authentication~1session~1new/post/tags",
+      "value": [
+        "authentication"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1authentication~1session~1convert~14/post/tags",
+      "value": [
+        "authentication"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1authentication~1token~1validate_with_login/post/tags",
+      "value": [
+        "authentication"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1authentication~1session/delete/tags",
+      "value": [
+        "authentication"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1certification~1movie~1list/get/tags",
+      "value": [
+        "certification"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1certification~1tv~1list/get/tags",
+      "value": [
+        "certification"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1movie~1changes/get/tags",
+      "value": [
+        "movie"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1person~1changes/get/tags",
+      "value": [
+        "person"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1tv~1changes/get/tags",
+      "value": [
+        "tv"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1collection~1{collection_id}/get/tags",
+      "value": [
+        "collection"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1collection~1{collection_id}~1images/get/tags",
+      "value": [
+        "collection"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1collection~1{collection_id}~1translations/get/tags",
+      "value": [
+        "collection"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1company~1{company_id}/get/tags",
+      "value": [
+        "company"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1company~1{company_id}~1alternative_names/get/tags",
+      "value": [
+        "company"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1company~1{company_id}~1images/get/tags",
+      "value": [
+        "company"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1configuration/get/tags",
+      "value": [
+        "configuration"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1configuration~1countries/get/tags",
+      "value": [
+        "configuration"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1configuration~1jobs/get/tags",
+      "value": [
+        "configuration"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1configuration~1languages/get/tags",
+      "value": [
+        "configuration"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1configuration~1primary_translations/get/tags",
+      "value": [
+        "configuration"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1configuration~1timezones/get/tags",
+      "value": [
+        "configuration"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1credit~1{credit_id}/get/tags",
+      "value": [
+        "credit"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1discover~1movie/get/tags",
+      "value": [
+        "discover"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1discover~1tv/get/tags",
+      "value": [
+        "discover"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1find~1{external_id}/get/tags",
+      "value": [
+        "find"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1genre~1movie~1list/get/tags",
+      "value": [
+        "genre"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1genre~1tv~1list/get/tags",
+      "value": [
+        "genre"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1guest_session~1{guest_session_id}~1rated~1movies/get/tags",
+      "value": [
+        "guest_session"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1guest_session~1{guest_session_id}~1rated~1tv/get/tags",
+      "value": [
+        "guest_session"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1guest_session~1{guest_session_id}~1rated~1tv~1episodes/get/tags",
+      "value": [
+        "guest_session"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1keyword~1{keyword_id}/get/tags",
+      "value": [
+        "keyword"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1keyword~1{keyword_id}~1movies/get/tags",
+      "value": [
+        "keyword"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1list~1{list_id}~1add_item/post/tags",
+      "value": [
+        "list"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1list~1{list_id}~1item_status/get/tags",
+      "value": [
+        "list"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1list~1{list_id}~1clear/post/tags",
+      "value": [
+        "list"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1list/post/tags",
+      "value": [
+        "list"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1list~1{list_id}/delete/tags",
+      "value": [
+        "list"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1list~1{list_id}/get/tags",
+      "value": [
+        "list"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1list~1{list_id}~1remove_item/post/tags",
+      "value": [
+        "list"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1movie~1now_playing/get/tags",
+      "value": [
+        "movie"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1movie~1popular/get/tags",
+      "value": [
+        "movie"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1movie~1top_rated/get/tags",
+      "value": [
+        "movie"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1movie~1upcoming/get/tags",
+      "value": [
+        "movie"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1movie~1{movie_id}/get/tags",
+      "value": [
+        "movie"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1movie~1{movie_id}~1account_states/get/tags",
+      "value": [
+        "movie"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1movie~1{movie_id}~1alternative_titles/get/tags",
+      "value": [
+        "movie"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1movie~1{movie_id}~1changes/get/tags",
+      "value": [
+        "movie"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1movie~1{movie_id}~1credits/get/tags",
+      "value": [
+        "movie"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1movie~1{movie_id}~1external_ids/get/tags",
+      "value": [
+        "movie"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1movie~1{movie_id}~1images/get/tags",
+      "value": [
+        "movie"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1movie~1{movie_id}~1keywords/get/tags",
+      "value": [
+        "movie"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1movie~1latest/get/tags",
+      "value": [
+        "movie"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1movie~1{movie_id}~1lists/get/tags",
+      "value": [
+        "movie"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1movie~1{movie_id}~1recommendations/get/tags",
+      "value": [
+        "movie"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1movie~1{movie_id}~1release_dates/get/tags",
+      "value": [
+        "movie"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1movie~1{movie_id}~1reviews/get/tags",
+      "value": [
+        "movie"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1movie~1{movie_id}~1similar/get/tags",
+      "value": [
+        "movie"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1movie~1{movie_id}~1translations/get/tags",
+      "value": [
+        "movie"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1movie~1{movie_id}~1videos/get/tags",
+      "value": [
+        "movie"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1movie~1{movie_id}~1watch~1providers/get/tags",
+      "value": [
+        "movie"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1movie~1{movie_id}~1rating/post/tags",
+      "value": [
+        "movie"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1movie~1{movie_id}~1rating/delete/tags",
+      "value": [
+        "movie"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1network~1{network_id}/get/tags",
+      "value": [
+        "network"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1network~1{network_id}~1alternative_names/get/tags",
+      "value": [
+        "network"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1network~1{network_id}~1images/get/tags",
+      "value": [
+        "network"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1person~1popular/get/tags",
+      "value": [
+        "person"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1person~1{person_id}/get/tags",
+      "value": [
+        "person"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1person~1{person_id}~1changes/get/tags",
+      "value": [
+        "person"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1person~1{person_id}~1combined_credits/get/tags",
+      "value": [
+        "person"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1person~1{person_id}~1external_ids/get/tags",
+      "value": [
+        "person"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1person~1{person_id}~1images/get/tags",
+      "value": [
+        "person"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1person~1latest/get/tags",
+      "value": [
+        "person"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1person~1{person_id}~1movie_credits/get/tags",
+      "value": [
+        "person"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1person~1{person_id}~1tv_credits/get/tags",
+      "value": [
+        "person"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1person~1{person_id}~1tagged_images/get/tags",
+      "value": [
+        "person"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1person~1{person_id}~1translations/get/tags",
+      "value": [
+        "person"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1review~1{review_id}/get/tags",
+      "value": [
+        "review"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1search~1collection/get/tags",
+      "value": [
+        "search"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1search~1company/get/tags",
+      "value": [
+        "search"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1search~1keyword/get/tags",
+      "value": [
+        "search"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1search~1movie/get/tags",
+      "value": [
+        "search"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1search~1multi/get/tags",
+      "value": [
+        "search"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1search~1person/get/tags",
+      "value": [
+        "search"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1search~1tv/get/tags",
+      "value": [
+        "search"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1trending~1all~1{time_window}/get/tags",
+      "value": [
+        "trending"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1trending~1movie~1{time_window}/get/tags",
+      "value": [
+        "trending"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1trending~1person~1{time_window}/get/tags",
+      "value": [
+        "trending"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1trending~1tv~1{time_window}/get/tags",
+      "value": [
+        "trending"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1tv~1airing_today/get/tags",
+      "value": [
+        "tv"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1tv~1on_the_air/get/tags",
+      "value": [
+        "tv"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1tv~1popular/get/tags",
+      "value": [
+        "tv"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1tv~1top_rated/get/tags",
+      "value": [
+        "tv"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1tv~1{series_id}/get/tags",
+      "value": [
+        "tv"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1tv~1{series_id}~1account_states/get/tags",
+      "value": [
+        "tv"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1tv~1{series_id}~1aggregate_credits/get/tags",
+      "value": [
+        "tv"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1tv~1{series_id}~1alternative_titles/get/tags",
+      "value": [
+        "tv"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1tv~1{series_id}~1changes/get/tags",
+      "value": [
+        "tv"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1tv~1{series_id}~1content_ratings/get/tags",
+      "value": [
+        "tv"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1tv~1{series_id}~1credits/get/tags",
+      "value": [
+        "tv"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1tv~1{series_id}~1episode_groups/get/tags",
+      "value": [
+        "tv"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1tv~1{series_id}~1external_ids/get/tags",
+      "value": [
+        "tv"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1tv~1{series_id}~1images/get/tags",
+      "value": [
+        "tv"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1tv~1{series_id}~1keywords/get/tags",
+      "value": [
+        "tv"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1tv~1latest/get/tags",
+      "value": [
+        "tv"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1tv~1{series_id}~1lists/get/tags",
+      "value": [
+        "tv"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1tv~1{series_id}~1recommendations/get/tags",
+      "value": [
+        "tv"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1tv~1{series_id}~1reviews/get/tags",
+      "value": [
+        "tv"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1tv~1{series_id}~1screened_theatrically/get/tags",
+      "value": [
+        "tv"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1tv~1{series_id}~1similar/get/tags",
+      "value": [
+        "tv"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1tv~1{series_id}~1translations/get/tags",
+      "value": [
+        "tv"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1tv~1{series_id}~1videos/get/tags",
+      "value": [
+        "tv"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1tv~1{series_id}~1watch~1providers/get/tags",
+      "value": [
+        "tv"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1tv~1{series_id}~1rating/post/tags",
+      "value": [
+        "tv"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1tv~1{series_id}~1rating/delete/tags",
+      "value": [
+        "tv"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1tv~1{series_id}~1season~1{season_number}/get/tags",
+      "value": [
+        "tv"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1tv~1{series_id}~1season~1{season_number}~1account_states/get/tags",
+      "value": [
+        "tv"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1tv~1{series_id}~1season~1{season_number}~1aggregate_credits/get/tags",
+      "value": [
+        "tv"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1tv~1season~1{season_id}~1changes/get/tags",
+      "value": [
+        "tv"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1tv~1{series_id}~1season~1{season_number}~1credits/get/tags",
+      "value": [
+        "tv"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1tv~1{series_id}~1season~1{season_number}~1external_ids/get/tags",
+      "value": [
+        "tv"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1tv~1{series_id}~1season~1{season_number}~1images/get/tags",
+      "value": [
+        "tv"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1tv~1{series_id}~1season~1{season_number}~1translations/get/tags",
+      "value": [
+        "tv"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1tv~1{series_id}~1season~1{season_number}~1videos/get/tags",
+      "value": [
+        "tv"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1tv~1{series_id}~1season~1{season_number}~1watch~1providers/get/tags",
+      "value": [
+        "tv"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1tv~1{series_id}~1season~1{season_number}~1episode~1{episode_number}/get/tags",
+      "value": [
+        "tv"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1tv~1{series_id}~1season~1{season_number}~1episode~1{episode_number}~1account_states/get/tags",
+      "value": [
+        "tv"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1tv~1episode~1{episode_id}~1changes/get/tags",
+      "value": [
+        "tv"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1tv~1{series_id}~1season~1{season_number}~1episode~1{episode_number}~1credits/get/tags",
+      "value": [
+        "tv"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1tv~1{series_id}~1season~1{season_number}~1episode~1{episode_number}~1external_ids/get/tags",
+      "value": [
+        "tv"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1tv~1{series_id}~1season~1{season_number}~1episode~1{episode_number}~1images/get/tags",
+      "value": [
+        "tv"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1tv~1{series_id}~1season~1{season_number}~1episode~1{episode_number}~1translations/get/tags",
+      "value": [
+        "tv"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1tv~1{series_id}~1season~1{season_number}~1episode~1{episode_number}~1videos/get/tags",
+      "value": [
+        "tv"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1tv~1{series_id}~1season~1{season_number}~1episode~1{episode_number}~1rating/post/tags",
+      "value": [
+        "tv"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1tv~1{series_id}~1season~1{season_number}~1episode~1{episode_number}~1rating/delete/tags",
+      "value": [
+        "tv"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1tv~1episode_group~1{tv_episode_group_id}/get/tags",
+      "value": [
+        "tv"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1watch~1providers~1regions/get/tags",
+      "value": [
+        "watch"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1watch~1providers~1movie/get/tags",
+      "value": [
+        "watch"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/paths/~13~1watch~1providers~1tv/get/tags",
+      "value": [
+        "watch"
+      ]
+    }
+  ]
+}
