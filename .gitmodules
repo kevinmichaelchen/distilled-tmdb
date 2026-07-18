@@ -1,4 +1,4 @@
 [submodule "specs/distilled-spec-tmdb"]
 	path = specs/distilled-spec-tmdb
-	url = ssh://git@github.com/kevinmichaelchen/distilled-spec-tmdb.git
+	url = https://github.com/kevinmichaelchen/distilled-spec-tmdb.git
 	branch = main
